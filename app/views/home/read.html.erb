@@ -1,0 +1,6 @@
+<h1>게시판 목록 입니다.</h1>
+<% @posts.each do |x| %>
+제목 : <%= x.db_title %>
+내용 : <%= x.db_content %>
+<hr>
+<%end%>
